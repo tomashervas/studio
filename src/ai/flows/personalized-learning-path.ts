@@ -57,7 +57,7 @@ const suggestNextTopicPrompt = ai.definePrompt({
   output: {
     schema: SuggestNextTopicOutputSchema,
   },
-  prompt: `You are an AI learning path optimizer.  Given a student's learning history, you will suggest the next best topic for them to study.
+  prompt: `Contesta en castellano al estudiante. You are an AI learning path optimizer.  Given a student's learning history, you will suggest the next best topic for them to study.
 
 Student ID: {{{studentId}}}
 

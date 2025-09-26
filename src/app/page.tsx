@@ -19,7 +19,7 @@ const subjects = [
     disabled: true,
   },
   {
-    name: 'Ciencias',
+    name: 'Conocimiento del medio',
     href: '#',
     icon: <FlaskConical className="h-10 w-10" />,
     disabled: true,
