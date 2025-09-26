@@ -10,7 +10,7 @@ export async function getLearningSuggestion(learningHistory: LearningRecord[]) {
     const suggestion = await suggestNextTopic({
       studentId: 'student-01', // Mock student ID
       learningHistory,
-      availableTopics: ['Gentilicios de España', 'Reglas de Acentuación'],
+      availableTopics: ['Gentilicios de España', 'Reglas de Acentuación', 'Acentuación Vocal'],
     });
     return { success: true, data: suggestion };
   } catch (error) {

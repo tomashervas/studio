@@ -65,3 +65,18 @@ export const acentuacionData = [
   { palabra: 'lápiz', tipo: 'llana', regla: 'Las palabras llanas llevan tilde si NO terminan en vocal, -n o -s.' },
   { palabra: 'música', tipo: 'esdrújula', regla: 'Las palabras esdrújulas siempre llevan tilde.' },
 ];
+
+export const acentuacionVocalData = [
+  { palabraCompleta: 'camión', palabraIncompleta: 'cami_n', vocalCorrecta: 'ó', vocalIncorrecta: 'o', regla: 'Las palabras agudas llevan tilde si terminan en vocal, -n o -s.' },
+  { palabraCompleta: 'árbol', palabraIncompleta: '_rbol', vocalCorrecta: 'á', vocalIncorrecta: 'a', regla: 'Las palabras llanas llevan tilde si NO terminan en vocal, -n o -s.' },
+  { palabraCompleta: 'brújula', palabraIncompleta: 'br_jula', vocalCorrecta: 'ú', vocalIncorrecta: 'u', regla: 'Las palabras esdrújulas siempre llevan tilde.' },
+  { palabraCompleta: 'pared', palabraIncompleta: 'par_d', vocalCorrecta: 'e', vocalIncorrecta: 'é', regla: 'Las palabras agudas que no terminan en vocal, -n o -s no llevan tilde.' },
+  { palabraCompleta: 'césped', palabraIncompleta: 'c_sped', vocalCorrecta: 'é', vocalIncorrecta: 'e', regla: 'Las palabras llanas llevan tilde si NO terminan en vocal, -n o -s.' },
+  { palabraCompleta: 'pájaro', palabraIncompleta: 'p_jaro', vocalCorrecta: 'á', vocalIncorrecta: 'a', regla: 'Las palabras esdrújulas siempre llevan tilde.' },
+  { palabraCompleta: 'sofá', palabraIncompleta: 'sof_', vocalCorrecta: 'á', vocalIncorrecta: 'a', regla: 'Las palabras agudas llevan tilde si terminan en vocal, -n o -s.' },
+  { palabraCompleta: 'mesa', palabraIncompleta: 'm_sa', vocalCorrecta: 'e', vocalIncorrecta: 'é', regla: 'Las palabras llanas que terminan en vocal, -n o -s no llevan tilde.' },
+  { palabraCompleta: 'teléfono', palabraIncompleta: 'tel_fono', vocalCorrecta: 'é', vocalIncorrecta: 'e', regla: 'Las palabras esdrújulas siempre llevan tilde.' },
+  { palabraCompleta: 'jugar', palabraIncompleta: 'jug_r', vocalCorrecta: 'a', vocalIncorrecta: 'á', regla: 'Las palabras agudas que no terminan en vocal, -n o -s no llevan tilde.' },
+  { palabraCompleta: 'lápiz', palabraIncompleta: 'l_piz', vocalCorrecta: 'á', vocalIncorrecta: 'a', regla: 'Las palabras llanas llevan tilde si NO terminan en vocal, -n o -s.' },
+  { palabraCompleta: 'música', palabraIncompleta: 'm_sica', vocalCorrecta: 'ú', vocalIncorrecta: 'u', regla: 'Las palabras esdrújulas siempre llevan tilde.' },
+];

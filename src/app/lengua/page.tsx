@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Map, SpellCheck } from 'lucide-react';
+import { Map, SpellCheck, Edit } from 'lucide-react';
 
 const topics = [
   {
@@ -14,6 +14,12 @@ const topics = [
     description: 'Aprende a diferenciar palabras agudas, llanas y esdrújulas.',
     href: '/lengua/acentuacion',
     icon: <SpellCheck className="h-8 w-8" />,
+  },
+  {
+    name: 'Acentuación Vocal',
+    description: 'Elige la vocal correcta, con o sin tilde, para completar la palabra.',
+    href: '/lengua/acentuacion-vocal',
+    icon: <Edit className="h-8 w-8" />,
   },
 ];
 
