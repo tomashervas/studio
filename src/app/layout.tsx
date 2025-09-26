@@ -5,8 +5,8 @@ import { Footer } from '@/components/Footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'BrainBoost',
-  description: 'Aprende jugando con BrainBoost',
+  title: 'Brainies',
+  description: 'Aprende jugando con Brainies',
 };
 
 export default function RootLayout({

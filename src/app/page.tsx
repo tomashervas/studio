@@ -33,7 +33,7 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8 md:px-6 md:py-12">
       <section className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold font-headline tracking-tight text-primary">
-          ¡Bienvenido a BrainBoost!
+          ¡Bienvenido a Brainies!
         </h1>
         <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
           Elige una asignatura para empezar a repasar y jugar. ¡Aprender nunca ha sido tan divertido!
