@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Map, SpellCheck, Edit } from 'lucide-react';
+import { Map, SpellCheck, Edit, BookText } from 'lucide-react';
 
 const topics = [
   {
@@ -21,6 +21,12 @@ const topics = [
     href: '/lengua/acentuacion-vocal',
     icon: <Edit className="h-8 w-8" />,
   },
+  {
+    name: 'Comprensión Lectora',
+    description: 'Crea una historia personalizada y responde a las preguntas.',
+    href: '/lengua/comprension-lectora',
+    icon: <BookText className="h-8 w-8" />,
+  },
 ];
 
 export default function LenguaPage() {
@@ -35,7 +41,7 @@ export default function LenguaPage() {
         </p>
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {topics.map((topic) => (
           <Link href={topic.href} key={topic.name} className="block">
             <Card className="h-full flex flex-col justify-between transform transition-transform duration-300 hover:scale-105 hover:shadow-xl hover:border-primary">
