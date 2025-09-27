@@ -77,7 +77,7 @@ Consider the following factors when suggesting the next topic:
 * Suggest topics that help the student build a solid foundation.
 * Avoid repeating topics the student has already mastered.
 
-Based on this information, what topic should the student study next?  Explain your reasoning.
+Based on this information, what topic should the student study next?  Explica el razonamiento de forma sencilla.
 
 Suggested Topic: {{suggestedTopic}}
 Reason: {{reason}}`,

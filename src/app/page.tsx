@@ -27,7 +27,7 @@ const subjects = [
 ];
 
 export default function Home() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'homepage-hero');
+  const heroImage = PlaceHolderImages[Math.floor(Math.random() * PlaceHolderImages.length)];
 
   return (
     <div className="container mx-auto px-4 py-8 md:px-6 md:py-12">
@@ -41,18 +41,20 @@ export default function Home() {
       </section>
 
       {heroImage && (
-        <section className="mb-12 rounded-lg overflow-hidden shadow-xl">
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            width={1200}
-            height={400}
-            className="w-full h-auto object-cover"
-            data-ai-hint={heroImage.imageHint}
-            priority
-          />
-        </section>
-      )}
+            <section className="mb-12 rounded-lg overflow-hidden shadow-xl relative"> {/* Agrega 'relative' aquí */}
+              <Image
+                src={heroImage.imageUrl}
+                alt={heroImage.description}
+                width={1200}
+                height={400}
+                className="w-full h-auto object-cover"
+                data-ai-hint={heroImage.imageHint}
+                priority
+              />
+              <div className="absolute bottom-2 left-2 text-white text-sm bg-black bg-opacity-50 px-2 py-1 rounded">
+                Foto de {heroImage.author}
+              </div>
+            </section>)}
 
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {subjects.map((subject) => (

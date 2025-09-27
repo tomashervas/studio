@@ -4,7 +4,29 @@
       "id": "homepage-hero",
       "description": "A child happily studying with books and a laptop.",
       "imageUrl": "https://images.unsplash.com/photo-1758612898181-d7c92f0e21d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZCUyMHN0dWR5aW5nfGVufDB8fHx8MTc1ODg3Nzk2MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "child studying"
+      "imageHint": "child studying",
+      "author":"Vitaly Gariev"
+    },
+    {
+      "id": "homepage-hero2",
+      "description": "A child happily studying with headphones",
+      "imageUrl": "https://images.unsplash.com/photo-1610484826625-ac2be7f1c8c1?q=80&w=2436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "child studying",
+      "author":"Compare Fibre"
+    },
+    {
+      "id": "homepage-hero3",
+      "description": "A child happily studying.",
+      "imageUrl": "https://images.unsplash.com/photo-1560785496-3c9d27877182?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "child studying",
+      "author":"Annie Spratt"
+    },
+    {
+      "id": "homepage-hero4",
+      "description": "Childs studying",
+      "imageUrl": "https://images.unsplash.com/photo-1585432959445-662c9bbcd91d?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "childs studying",
+      "author":"Jessica Lewis"
     }
   ]
 }
