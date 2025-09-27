@@ -166,7 +166,7 @@ export function AcentuacionGame() {
             {selectedAnswer === currentQuestion.tipo ? (
               <p className="font-bold text-green-500 flex items-center gap-2"><CheckCircle2/> ¡Correcto!</p>
             ) : (
-              <p className="font-bold text-destructive flex items-center gap-2"><XCircle/> Incorrecto. La respuesta es "{currentQuestion.tipo}".</p>
+              <p className="font-bold text-destructive text-xl flex items-center gap-2"><XCircle/> Incorrecto. La respuesta es "{currentQuestion.tipo}".</p>
             )}
             <p className="text-sm text-muted-foreground">{currentQuestion.regla}</p>
             <Button onClick={handleNextQuestion}>

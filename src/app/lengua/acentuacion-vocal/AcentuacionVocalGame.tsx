@@ -175,7 +175,7 @@ export function AcentuacionVocalGame() {
             {selectedAnswer === currentQuestion.vocalCorrecta ? (
               <p className="font-bold text-green-500 flex items-center gap-2"><CheckCircle2/> ¡Correcto! La palabra es <span className="font-extrabold">{currentQuestion.palabraCompleta}</span>.</p>
             ) : (
-              <p className="font-bold text-destructive flex items-center gap-2"><XCircle/> Incorrecto. La palabra correcta es <span className="font-extrabold">{currentQuestion.palabraCompleta}</span>.</p>
+              <p className="font-bold text-destructive text-xl flex items-center gap-2"><XCircle/> Incorrecto. La palabra correcta es <span className="font-extrabold">{currentQuestion.palabraCompleta}</span>.</p>
             )}
             <p className="text-sm text-muted-foreground">{currentQuestion.regla}</p>
             <Button onClick={handleNextQuestion}>

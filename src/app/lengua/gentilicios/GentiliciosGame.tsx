@@ -160,7 +160,7 @@ export function GentiliciosGame() {
               {feedback === 'correct' ? (
                 <p className="font-bold text-green-500 flex items-center gap-2"><CheckCircle2 /> ¡Correcto!</p>
               ) : (
-                <p className="font-bold text-destructive flex items-center gap-2"><XCircle /> Incorrecto. La respuesta es "{currentQuestion.gentilicio}".</p>
+                <p className="font-bold text-destructive text-xl flex items-center gap-2"><XCircle /> Incorrecto. La respuesta es "{currentQuestion.gentilicio}".</p>
               )}
               <Button onClick={handleNextQuestion}>
                 {currentQuestionIndex < questions.length - 1 ? 'Siguiente Pregunta' : 'Ver Resultados'}
