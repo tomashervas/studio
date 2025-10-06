@@ -15,9 +15,9 @@ const subjects = [
   },
   {
     name: 'Matemáticas',
-    href: '#',
+    href: '/matematicas',
     icon: <Calculator className="h-10 w-10" />,
-    disabled: true,
+    disabled: false,
   },
   {
     name: 'Conocimiento del medio',
